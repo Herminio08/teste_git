@@ -1,0 +1,1159 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K80 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"49 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"76 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/ecan.c
+[v _RXB0DefaultInterruptHandler RXB0DefaultInterruptHandler `(v  1 s 1 RXB0DefaultInterruptHandler ]
+"77
+[v _RXB1DefaultInterruptHandler RXB1DefaultInterruptHandler `(v  1 s 1 RXB1DefaultInterruptHandler ]
+"78
+[v _TXB0DefaultInterruptHandler TXB0DefaultInterruptHandler `(v  1 s 1 TXB0DefaultInterruptHandler ]
+"79
+[v _TXB1DefaultInterruptHandler TXB1DefaultInterruptHandler `(v  1 s 1 TXB1DefaultInterruptHandler ]
+"80
+[v _TXB2DefaultInterruptHandler TXB2DefaultInterruptHandler `(v  1 s 1 TXB2DefaultInterruptHandler ]
+"81
+[v _RXB0OverflowDefaultHandler RXB0OverflowDefaultHandler `(v  1 s 1 RXB0OverflowDefaultHandler ]
+"82
+[v _RXB1OverflowDefaultHandler RXB1OverflowDefaultHandler `(v  1 s 1 RXB1OverflowDefaultHandler ]
+"83
+[v _BusOffDefaultHandler BusOffDefaultHandler `(v  1 s 1 BusOffDefaultHandler ]
+"84
+[v _TXPassiveDefaultHandler TXPassiveDefaultHandler `(v  1 s 1 TXPassiveDefaultHandler ]
+"85
+[v _RXPassiveDefaultHandler RXPassiveDefaultHandler `(v  1 s 1 RXPassiveDefaultHandler ]
+"86
+[v _TXWarningDefaultHandler TXWarningDefaultHandler `(v  1 s 1 TXWarningDefaultHandler ]
+"87
+[v _RXWarningDefaultHandler RXWarningDefaultHandler `(v  1 s 1 RXWarningDefaultHandler ]
+"88
+[v _WakeUpDefaultInterruptHandler WakeUpDefaultInterruptHandler `(v  1 s 1 WakeUpDefaultInterruptHandler ]
+"89
+[v _MessageErrorDefaultInterruptHandler MessageErrorDefaultInterruptHandler `(v  1 s 1 MessageErrorDefaultInterruptHandler ]
+"91
+[v _ECAN_Initialize ECAN_Initialize `(v  1 e 1 0 ]
+"428
+[v _convertReg2ExtendedCANid convertReg2ExtendedCANid `(ul  1 s 4 convertReg2ExtendedCANid ]
+"449
+[v _convertReg2StandardCANid convertReg2StandardCANid `(ul  1 s 4 convertReg2StandardCANid ]
+"462
+[v _convertCANid2Reg convertCANid2Reg `(v  1 s 1 convertCANid2Reg ]
+"499
+[v _ECAN_SetRXB0InterruptHandler ECAN_SetRXB0InterruptHandler `(v  1 e 1 0 ]
+"504
+[v _ECAN_RXB0I_ISR ECAN_RXB0I_ISR `(v  1 e 1 0 ]
+"510
+[v _ECAN_SetRXB1InterruptHandler ECAN_SetRXB1InterruptHandler `(v  1 e 1 0 ]
+"515
+[v _ECAN_RXB1I_ISR ECAN_RXB1I_ISR `(v  1 e 1 0 ]
+"521
+[v _ECAN_SetTXB0InterruptHandler ECAN_SetTXB0InterruptHandler `(v  1 e 1 0 ]
+"526
+[v _ECAN_TXB0I_ISR ECAN_TXB0I_ISR `(v  1 e 1 0 ]
+"532
+[v _ECAN_SetTXB1InterruptHandler ECAN_SetTXB1InterruptHandler `(v  1 e 1 0 ]
+"537
+[v _ECAN_TXB1I_ISR ECAN_TXB1I_ISR `(v  1 e 1 0 ]
+"543
+[v _ECAN_SetTXB2InterruptHandler ECAN_SetTXB2InterruptHandler `(v  1 e 1 0 ]
+"548
+[v _ECAN_TXB2I_ISR ECAN_TXB2I_ISR `(v  1 e 1 0 ]
+"554
+[v _ECAN_SetRXB0OverflowHandler ECAN_SetRXB0OverflowHandler `(v  1 e 1 0 ]
+"559
+[v _ECAN_SetRXB1OverflowHandler ECAN_SetRXB1OverflowHandler `(v  1 e 1 0 ]
+"564
+[v _ECAN_SetBusOffHandler ECAN_SetBusOffHandler `(v  1 e 1 0 ]
+"569
+[v _ECAN_SetTXPassiveHandler ECAN_SetTXPassiveHandler `(v  1 e 1 0 ]
+"574
+[v _ECAN_SetRXPassiveHandler ECAN_SetRXPassiveHandler `(v  1 e 1 0 ]
+"579
+[v _ECAN_SetTXWarningHandler ECAN_SetTXWarningHandler `(v  1 e 1 0 ]
+"584
+[v _ECAN_SetRXWarningHandler ECAN_SetRXWarningHandler `(v  1 e 1 0 ]
+"589
+[v _ECAN_ERRI_ISR ECAN_ERRI_ISR `(v  1 e 1 0 ]
+"631
+[v _ECAN_SetWakeUpInterruptHandler ECAN_SetWakeUpInterruptHandler `(v  1 e 1 0 ]
+"636
+[v _ECAN_WAKI_ISR ECAN_WAKI_ISR `(v  1 e 1 0 ]
+"642
+[v _ECAN_SetMessageErrorInterruptHandler ECAN_SetMessageErrorInterruptHandler `(v  1 e 1 0 ]
+"647
+[v _ECAN_IRXI_ISR ECAN_IRXI_ISR `(v  1 e 1 0 ]
+"88 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"197
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+"216
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"240
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+"250
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"252
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"260
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"264
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"268
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"272
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"276
+[v _EUSART1_SetTxInterruptHandler EUSART1_SetTxInterruptHandler `(v  1 e 1 0 ]
+"280
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+"52 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"92
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
+"109
+[v _INTERRUPT_InterruptManagerLow INTERRUPT_InterruptManagerLow `IIL(v  1 e 1 0 ]
+"50 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"192 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f25k80.h
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3651 ]
+"268
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3652 ]
+"353
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3653 ]
+"16279
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @3808 ]
+"16399
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @3809 ]
+"16506
+[v _RXF0EIDH RXF0EIDH `VEuc  1 e 1 @3810 ]
+"16626
+[v _RXF0EIDL RXF0EIDL `VEuc  1 e 1 @3811 ]
+"16746
+[v _RXF1SIDH RXF1SIDH `VEuc  1 e 1 @3812 ]
+"16866
+[v _RXF1SIDL RXF1SIDL `VEuc  1 e 1 @3813 ]
+"16973
+[v _RXF1EIDH RXF1EIDH `VEuc  1 e 1 @3814 ]
+"17093
+[v _RXF1EIDL RXF1EIDL `VEuc  1 e 1 @3815 ]
+"17213
+[v _RXF2SIDH RXF2SIDH `VEuc  1 e 1 @3816 ]
+"17333
+[v _RXF2SIDL RXF2SIDL `VEuc  1 e 1 @3817 ]
+"17440
+[v _RXF2EIDH RXF2EIDH `VEuc  1 e 1 @3818 ]
+"17560
+[v _RXF2EIDL RXF2EIDL `VEuc  1 e 1 @3819 ]
+"17680
+[v _RXF3SIDH RXF3SIDH `VEuc  1 e 1 @3820 ]
+"17800
+[v _RXF3SIDL RXF3SIDL `VEuc  1 e 1 @3821 ]
+"17907
+[v _RXF3EIDH RXF3EIDH `VEuc  1 e 1 @3822 ]
+"18027
+[v _RXF3EIDL RXF3EIDL `VEuc  1 e 1 @3823 ]
+"18147
+[v _RXF4SIDH RXF4SIDH `VEuc  1 e 1 @3824 ]
+"18267
+[v _RXF4SIDL RXF4SIDL `VEuc  1 e 1 @3825 ]
+"18374
+[v _RXF4EIDH RXF4EIDH `VEuc  1 e 1 @3826 ]
+"18494
+[v _RXF4EIDL RXF4EIDL `VEuc  1 e 1 @3827 ]
+"18614
+[v _RXF5SIDH RXF5SIDH `VEuc  1 e 1 @3828 ]
+"18734
+[v _RXF5SIDL RXF5SIDL `VEuc  1 e 1 @3829 ]
+"18841
+[v _RXF5EIDH RXF5EIDH `VEuc  1 e 1 @3830 ]
+"18961
+[v _RXF5EIDL RXF5EIDL `VEuc  1 e 1 @3831 ]
+"19081
+[v _RXM0SIDH RXM0SIDH `VEuc  1 e 1 @3832 ]
+"19201
+[v _RXM0SIDL RXM0SIDL `VEuc  1 e 1 @3833 ]
+"19308
+[v _RXM0EIDH RXM0EIDH `VEuc  1 e 1 @3834 ]
+"19428
+[v _RXM0EIDL RXM0EIDL `VEuc  1 e 1 @3835 ]
+"19548
+[v _RXM1SIDH RXM1SIDH `VEuc  1 e 1 @3836 ]
+"19668
+[v _RXM1SIDL RXM1SIDL `VEuc  1 e 1 @3837 ]
+"19775
+[v _RXM1EIDH RXM1EIDH `VEuc  1 e 1 @3838 ]
+"19895
+[v _RXM1EIDL RXM1EIDL `VEuc  1 e 1 @3839 ]
+[s S607 . 1 `uc 1 TXPRI 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXREQ 1 0 :1:3 
+`uc 1 TXERR 1 0 :1:4 
+`uc 1 TXLARB 1 0 :1:5 
+`uc 1 TXABT 1 0 :1:6 
+`uc 1 TXBIF 1 0 :1:7 
+]
+"20045
+[s S615 . 1 `uc 1 TXPRI0 1 0 :1:0 
+`uc 1 TXPRI1 1 0 :1:1 
+]
+[s S744 . 1 `uc 1 TXB2PRI0 1 0 :1:0 
+`uc 1 TXB2PRI1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXB2REQ 1 0 :1:3 
+`uc 1 TXB2ERR 1 0 :1:4 
+`uc 1 TXB2LARB 1 0 :1:5 
+`uc 1 TXB2ABT 1 0 :1:6 
+`uc 1 TX2IF 1 0 :1:7 
+]
+[u S753 . 1 `S607 1 . 1 0 `S615 1 . 1 0 `S744 1 . 1 0 ]
+[v _TXB2CONbits TXB2CONbits `VES753  1 e 1 @3840 ]
+"20125
+[v _TXB2SIDH TXB2SIDH `VEuc  1 e 1 @3841 ]
+"20245
+[v _TXB2SIDL TXB2SIDL `VEuc  1 e 1 @3842 ]
+"20357
+[v _TXB2EIDH TXB2EIDH `VEuc  1 e 1 @3843 ]
+"20477
+[v _TXB2EIDL TXB2EIDL `VEuc  1 e 1 @3844 ]
+"20597
+[v _TXB2DLC TXB2DLC `VEuc  1 e 1 @3845 ]
+"20683
+[v _TXB2D0 TXB2D0 `VEuc  1 e 1 @3846 ]
+"20753
+[v _TXB2D1 TXB2D1 `VEuc  1 e 1 @3847 ]
+"20823
+[v _TXB2D2 TXB2D2 `VEuc  1 e 1 @3848 ]
+"20893
+[v _TXB2D3 TXB2D3 `VEuc  1 e 1 @3849 ]
+"20963
+[v _TXB2D4 TXB2D4 `VEuc  1 e 1 @3850 ]
+"21033
+[v _TXB2D5 TXB2D5 `VEuc  1 e 1 @3851 ]
+"21103
+[v _TXB2D6 TXB2D6 `VEuc  1 e 1 @3852 ]
+"21173
+[v _TXB2D7 TXB2D7 `VEuc  1 e 1 @3853 ]
+"21476
+[s S686 . 1 `uc 1 TXB1PRI0 1 0 :1:0 
+`uc 1 TXB1PRI1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXB1REQ 1 0 :1:3 
+`uc 1 TXB1ERR 1 0 :1:4 
+`uc 1 TXB1LARB 1 0 :1:5 
+`uc 1 TXB1ABT 1 0 :1:6 
+`uc 1 TX1IF 1 0 :1:7 
+]
+[u S695 . 1 `S607 1 . 1 0 `S615 1 . 1 0 `S686 1 . 1 0 ]
+[v _TXB1CONbits TXB1CONbits `VES695  1 e 1 @3856 ]
+"21556
+[v _TXB1SIDH TXB1SIDH `VEuc  1 e 1 @3857 ]
+"21676
+[v _TXB1SIDL TXB1SIDL `VEuc  1 e 1 @3858 ]
+"21788
+[v _TXB1EIDH TXB1EIDH `VEuc  1 e 1 @3859 ]
+"21908
+[v _TXB1EIDL TXB1EIDL `VEuc  1 e 1 @3860 ]
+"22028
+[v _TXB1DLC TXB1DLC `VEuc  1 e 1 @3861 ]
+"22114
+[v _TXB1D0 TXB1D0 `VEuc  1 e 1 @3862 ]
+"22184
+[v _TXB1D1 TXB1D1 `VEuc  1 e 1 @3863 ]
+"22254
+[v _TXB1D2 TXB1D2 `VEuc  1 e 1 @3864 ]
+"22324
+[v _TXB1D3 TXB1D3 `VEuc  1 e 1 @3865 ]
+"22394
+[v _TXB1D4 TXB1D4 `VEuc  1 e 1 @3866 ]
+"22464
+[v _TXB1D5 TXB1D5 `VEuc  1 e 1 @3867 ]
+"22534
+[v _TXB1D6 TXB1D6 `VEuc  1 e 1 @3868 ]
+"22604
+[v _TXB1D7 TXB1D7 `VEuc  1 e 1 @3869 ]
+"22907
+[s S618 . 1 `uc 1 TXB0PRI0 1 0 :1:0 
+`uc 1 TXB0PRI1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXB0REQ 1 0 :1:3 
+`uc 1 TXB0ERR 1 0 :1:4 
+`uc 1 TXB0LARB 1 0 :1:5 
+`uc 1 TXB0ABT 1 0 :1:6 
+`uc 1 TX0IF 1 0 :1:7 
+]
+[u S627 . 1 `S607 1 . 1 0 `S615 1 . 1 0 `S618 1 . 1 0 ]
+[v _TXB0CONbits TXB0CONbits `VES627  1 e 1 @3872 ]
+"22987
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3873 ]
+"23107
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3874 ]
+"23219
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3875 ]
+"23339
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3876 ]
+"23459
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3877 ]
+"23545
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3878 ]
+"23615
+[v _TXB0D1 TXB0D1 `VEuc  1 e 1 @3879 ]
+"23685
+[v _TXB0D2 TXB0D2 `VEuc  1 e 1 @3880 ]
+"23755
+[v _TXB0D3 TXB0D3 `VEuc  1 e 1 @3881 ]
+"23825
+[v _TXB0D4 TXB0D4 `VEuc  1 e 1 @3882 ]
+"23895
+[v _TXB0D5 TXB0D5 `VEuc  1 e 1 @3883 ]
+"23965
+[v _TXB0D6 TXB0D6 `VEuc  1 e 1 @3884 ]
+"24035
+[v _TXB0D7 TXB0D7 `VEuc  1 e 1 @3885 ]
+[s S899 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"24353
+[s S908 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S913 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[s S918 . 1 `uc 1 RXB1FILHIT0 1 0 :1:0 
+`uc 1 RXB1FILHIT1 1 0 :1:1 
+`uc 1 RXB1FILHIT2 1 0 :1:2 
+`uc 1 RXB1FILHIT3 1 0 :1:3 
+`uc 1 RXB1FILHIT4 1 0 :1:4 
+`uc 1 RXB1M0 1 0 :1:5 
+`uc 1 RXB1M1 1 0 :1:6 
+`uc 1 RXB1FUL 1 0 :1:7 
+]
+[s S927 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB1RTRR0 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXB1RTRRO 1 0 :1:5 
+]
+[u S932 . 1 `S899 1 . 1 0 `S908 1 . 1 0 `S913 1 . 1 0 `S918 1 . 1 0 `S927 1 . 1 0 ]
+[v _RXB1CONbits RXB1CONbits `VES932  1 e 1 @3888 ]
+"24468
+[v _RXB1SIDH RXB1SIDH `VEuc  1 e 1 @3889 ]
+"24588
+[v _RXB1SIDL RXB1SIDL `VEuc  1 e 1 @3890 ]
+"24705
+[v _RXB1EIDH RXB1EIDH `VEuc  1 e 1 @3891 ]
+"24825
+[v _RXB1EIDL RXB1EIDL `VEuc  1 e 1 @3892 ]
+"24945
+[v _RXB1DLC RXB1DLC `VEuc  1 e 1 @3893 ]
+"25059
+[v _RXB1D0 RXB1D0 `VEuc  1 e 1 @3894 ]
+"25129
+[v _RXB1D1 RXB1D1 `VEuc  1 e 1 @3895 ]
+"25199
+[v _RXB1D2 RXB1D2 `VEuc  1 e 1 @3896 ]
+"25269
+[v _RXB1D3 RXB1D3 `VEuc  1 e 1 @3897 ]
+"25339
+[v _RXB1D4 RXB1D4 `VEuc  1 e 1 @3898 ]
+"25409
+[v _RXB1D5 RXB1D5 `VEuc  1 e 1 @3899 ]
+"25479
+[v _RXB1D6 RXB1D6 `VEuc  1 e 1 @3900 ]
+"25549
+[v _RXB1D7 RXB1D7 `VEuc  1 e 1 @3901 ]
+"26860
+[v _WPUB WPUB `VEuc  1 e 1 @3931 ]
+"26922
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3932 ]
+"26974
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3933 ]
+[s S791 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 JTOFF_FILHIT1 1 0 :1:1 
+`uc 1 RB0DBEN_FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"27631
+[s S800 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 JTOFF 1 0 :1:1 
+`uc 1 RB0DBEN 1 0 :1:2 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[s S807 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S814 . 1 `uc 1 RXB0FILHIT0 1 0 :1:0 
+`uc 1 RXB0FILHIT1 1 0 :1:1 
+`uc 1 RXB0FILHIT2 1 0 :1:2 
+`uc 1 RXB0FILHIT3 1 0 :1:3 
+`uc 1 RXB0FILHIT4 1 0 :1:4 
+`uc 1 RXB0M0 1 0 :1:5 
+`uc 1 RXB0M1 1 0 :1:6 
+`uc 1 RXB0FUL 1 0 :1:7 
+]
+[s S823 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB0RTRR0 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXB0RTRRO 1 0 :1:5 
+]
+[u S828 . 1 `S791 1 . 1 0 `S800 1 . 1 0 `S807 1 . 1 0 `S814 1 . 1 0 `S823 1 . 1 0 ]
+[v _RXB0CONbits RXB0CONbits `VES828  1 e 1 @3936 ]
+"27766
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"27886
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"28003
+[v _RXB0EIDH RXB0EIDH `VEuc  1 e 1 @3939 ]
+"28123
+[v _RXB0EIDL RXB0EIDL `VEuc  1 e 1 @3940 ]
+"28243
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"28357
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"28427
+[v _RXB0D1 RXB0D1 `VEuc  1 e 1 @3943 ]
+"28497
+[v _RXB0D2 RXB0D2 `VEuc  1 e 1 @3944 ]
+"28567
+[v _RXB0D3 RXB0D3 `VEuc  1 e 1 @3945 ]
+"28637
+[v _RXB0D4 RXB0D4 `VEuc  1 e 1 @3946 ]
+"28707
+[v _RXB0D5 RXB0D5 `VEuc  1 e 1 @3947 ]
+"28777
+[v _RXB0D6 RXB0D6 `VEuc  1 e 1 @3948 ]
+"28847
+[v _RXB0D7 RXB0D7 `VEuc  1 e 1 @3949 ]
+"28917
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"29028
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"29120
+[v _CIOCON CIOCON `VEuc  1 e 1 @3952 ]
+[s S985 . 1 `uc 1 EWARN 1 0 :1:0 
+`uc 1 RXWARN 1 0 :1:1 
+`uc 1 TXWARN 1 0 :1:2 
+`uc 1 RXBP 1 0 :1:3 
+`uc 1 TXBP 1 0 :1:4 
+`uc 1 TXBO 1 0 :1:5 
+`uc 1 RXB1OVFL 1 0 :1:6 
+`uc 1 RXB0OVFL 1 0 :1:7 
+]
+"29195
+[s S994 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_FIFOEMPTY 1 0 :1:7 
+]
+[s S997 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 nFIFOEMPTY 1 0 :1:7 
+]
+[s S1000 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RXBNOVFL 1 0 :1:6 
+`uc 1 FIFOEMPTY 1 0 :1:7 
+]
+[u S1004 . 1 `S985 1 . 1 0 `S994 1 . 1 0 `S997 1 . 1 0 `S1000 1 . 1 0 ]
+[v _COMSTATbits COMSTATbits `VES1004  1 e 1 @3953 ]
+"29260
+[v _ECANCON ECANCON `VEuc  1 e 1 @3954 ]
+[s S233 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+`uc 1 ERRIE 1 0 :1:5 
+`uc 1 WAKIE 1 0 :1:6 
+`uc 1 IRXIE 1 0 :1:7 
+]
+"29420
+[s S242 . 1 `uc 1 FIFOWMIE 1 0 :1:0 
+`uc 1 RXBnIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBnIE 1 0 :1:4 
+]
+[u S247 . 1 `S233 1 . 1 0 `S242 1 . 1 0 ]
+[v _PIE5bits PIE5bits `VES247  1 e 1 @3958 ]
+[s S265 . 1 `uc 1 RXB0IF 1 0 :1:0 
+`uc 1 RXB1IF 1 0 :1:1 
+`uc 1 TXB0IF 1 0 :1:2 
+`uc 1 TXB1IF 1 0 :1:3 
+`uc 1 TXB2IF 1 0 :1:4 
+`uc 1 ERRIF 1 0 :1:5 
+`uc 1 WAKIF 1 0 :1:6 
+`uc 1 IRXIF 1 0 :1:7 
+]
+"29503
+[s S274 . 1 `uc 1 FIFOWMIF 1 0 :1:0 
+`uc 1 RXBnIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBnIF 1 0 :1:4 
+]
+[u S279 . 1 `S265 1 . 1 0 `S274 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES279  1 e 1 @3959 ]
+[s S128 . 1 `uc 1 RXB0IP 1 0 :1:0 
+`uc 1 RXB1IP 1 0 :1:1 
+`uc 1 TXB0IP 1 0 :1:2 
+`uc 1 TXB1IP 1 0 :1:3 
+`uc 1 TXB2IP 1 0 :1:4 
+`uc 1 ERRIP 1 0 :1:5 
+`uc 1 WAKIP 1 0 :1:6 
+`uc 1 IRXIP 1 0 :1:7 
+]
+"29593
+[s S137 . 1 `uc 1 FIFOWMIP 1 0 :1:0 
+`uc 1 RXBnIP 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBnIP 1 0 :1:4 
+]
+[s S142 . 1 `uc 1 CCH05 1 0 :1:0 
+`uc 1 CCH15 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 EVPOL05 1 0 :1:3 
+`uc 1 EVPOL15 1 0 :1:4 
+]
+[u S148 . 1 `S128 1 . 1 0 `S137 1 . 1 0 `S142 1 . 1 0 ]
+[v _IPR5bits IPR5bits `VES148  1 e 1 @3960 ]
+"29753
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @3965 ]
+"30225
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"30327
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"30439
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"30645
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"30702
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"30764
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"30870
+[v _REFOCON REFOCON `VEuc  1 e 1 @3994 ]
+"30935
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S173 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR1GIE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"31092
+[s S181 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S185 . 1 `S173 1 . 1 0 `S181 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES185  1 e 1 @3997 ]
+[s S201 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"31163
+[s S209 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S213 . 1 `S201 1 . 1 0 `S209 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES213  1 e 1 @3998 ]
+[s S100 . 1 `uc 1 TMR1IP 1 0 :1:0 
+`uc 1 TMR2IP 1 0 :1:1 
+`uc 1 TMR1GIP 1 0 :1:2 
+`uc 1 SSPIP 1 0 :1:3 
+`uc 1 TX1IP 1 0 :1:4 
+`uc 1 RC1IP 1 0 :1:5 
+`uc 1 ADIP 1 0 :1:6 
+]
+"31234
+[s S108 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIP 1 0 :1:4 
+`uc 1 RCIP 1 0 :1:5 
+]
+[u S112 . 1 `S100 1 . 1 0 `S108 1 . 1 0 ]
+[v _IPR1bits IPR1bits `VES112  1 e 1 @3999 ]
+"31792
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @4007 ]
+"32142
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+[s S1516 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"32197
+[s S1525 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1531 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+[s S1534 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S1537 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1540 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S1549 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S1552 . 1 `S1516 1 . 1 0 `S1525 1 . 1 0 `S1531 1 . 1 0 `S1534 1 . 1 0 `S1537 1 . 1 0 `S1540 1 . 1 0 `S1549 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES1552  1 e 1 @4011 ]
+"32480
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+[s S1452 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"32525
+[s S1461 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S1465 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_TX8 1 0 :1:6 
+]
+[s S1468 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S1471 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[u S1480 . 1 `S1452 1 . 1 0 `S1461 1 . 1 0 `S1465 1 . 1 0 `S1468 1 . 1 0 `S1471 1 . 1 0 ]
+[v _TXSTA1bits TXSTA1bits `VES1480  1 e 1 @4012 ]
+"32768
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"32806
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"32844
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+[s S24 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"35456
+[s S26 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+"35456
+[s S29 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+"35456
+[s S32 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+"35456
+[s S35 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+"35456
+[s S38 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+"35456
+[s S41 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+"35456
+[s S50 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+"35456
+[u S57 . 1 `S24 1 . 1 0 `S26 1 . 1 0 `S29 1 . 1 0 `S32 1 . 1 0 `S35 1 . 1 0 `S38 1 . 1 0 `S41 1 . 1 0 `S50 1 . 1 0 ]
+"35456
+"35456
+[v _RCONbits RCONbits `VES57  1 e 1 @4048 ]
+"35621
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"35693
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S1253 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"36579
+[s S1256 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 INT3IP 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 INTEDG3 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"36579
+[s S1265 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT3P 1 0 :1:1 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+"36579
+[u S1271 . 1 `S1253 1 . 1 0 `S1256 1 . 1 0 `S1265 1 . 1 0 ]
+"36579
+"36579
+[v _INTCON2bits INTCON2bits `VES1271  1 e 1 @4081 ]
+[s S1294 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"36681
+[s S1303 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"36681
+[s S1312 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"36681
+[u S1316 . 1 `S1294 1 . 1 0 `S1303 1 . 1 0 `S1312 1 . 1 0 ]
+"36681
+"36681
+[v _INTCONbits INTCONbits `VES1316  1 e 1 @4082 ]
+"54 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/ecan.c
+[v _RXB0InterruptHandler RXB0InterruptHandler `*.37(v  1 s 2 RXB0InterruptHandler ]
+"55
+[v _RXB1InterruptHandler RXB1InterruptHandler `*.37(v  1 s 2 RXB1InterruptHandler ]
+"56
+[v _TXB0InterruptHandler TXB0InterruptHandler `*.37(v  1 s 2 TXB0InterruptHandler ]
+"57
+[v _TXB1InterruptHandler TXB1InterruptHandler `*.37(v  1 s 2 TXB1InterruptHandler ]
+"58
+[v _TXB2InterruptHandler TXB2InterruptHandler `*.37(v  1 s 2 TXB2InterruptHandler ]
+"59
+[v _RXB0OverflowHandler RXB0OverflowHandler `*.37(v  1 s 2 RXB0OverflowHandler ]
+"60
+[v _RXB1OverflowHandler RXB1OverflowHandler `*.37(v  1 s 2 RXB1OverflowHandler ]
+"61
+[v _BusOffHandler BusOffHandler `*.37(v  1 s 2 BusOffHandler ]
+"62
+[v _TXPassiveHandler TXPassiveHandler `*.37(v  1 s 2 TXPassiveHandler ]
+"63
+[v _RXPassiveHandler RXPassiveHandler `*.37(v  1 s 2 RXPassiveHandler ]
+"64
+[v _TXWarningHandler TXWarningHandler `*.37(v  1 s 2 TXWarningHandler ]
+"65
+[v _RXWarningHandler RXWarningHandler `*.37(v  1 s 2 RXWarningHandler ]
+"66
+[v _WakeUpInterruptHandler WakeUpInterruptHandler `*.37(v  1 s 2 WakeUpInterruptHandler ]
+"67
+[v _MessageErrorInterruptHandler MessageErrorInterruptHandler `*.37(v  1 s 2 MessageErrorInterruptHandler ]
+"62 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/eusart1.c
+[v _eusart1TxHead eusart1TxHead `VEuc  1 e 1 0 ]
+"63
+[v _eusart1TxTail eusart1TxTail `VEuc  1 e 1 0 ]
+"64
+[v _eusart1TxBuffer eusart1TxBuffer `VE[8]uc  1 e 8 0 ]
+"65
+[v _eusart1TxBufferRemaining eusart1TxBufferRemaining `VEuc  1 e 1 0 ]
+"67
+[v _eusart1RxHead eusart1RxHead `VEuc  1 e 1 0 ]
+"68
+[v _eusart1RxTail eusart1RxTail `VEuc  1 e 1 0 ]
+"69
+[v _eusart1RxBuffer eusart1RxBuffer `VE[8]uc  1 e 8 0 ]
+[s S1368 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"70
+[u S1373 . 1 `S1368 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxStatusBuffer eusart1RxStatusBuffer `VE[8]S1373  1 e 8 0 ]
+"71
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+"72
+[v _eusart1RxLastError eusart1RxLastError `VES1373  1 e 1 0 ]
+"77
+[v _EUSART1_TxDefaultInterruptHandler EUSART1_TxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"78
+[v _EUSART1_RxDefaultInterruptHandler EUSART1_RxDefaultInterruptHandler `*.37(v  1 e 2 0 ]
+"80
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"81
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"82
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"49 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"80
+} 0
+"50 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"55 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"60 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"52 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"90
+} 0
+"88 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"130
+} 0
+"276
+[v _EUSART1_SetTxInterruptHandler EUSART1_SetTxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetTxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 8 ]
+"278
+} 0
+"280
+[v _EUSART1_SetRxInterruptHandler EUSART1_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetRxInterruptHandler@interruptHandler interruptHandler `*.37(v  1 p 2 8 ]
+"282
+} 0
+"268
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 8 ]
+"270
+} 0
+"264
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 8 ]
+"266
+} 0
+"272
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 8 ]
+"274
+} 0
+"91 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/ecan.c
+[v _ECAN_Initialize ECAN_Initialize `(v  1 e 1 0 ]
+{
+"212
+} 0
+"631
+[v _ECAN_SetWakeUpInterruptHandler ECAN_SetWakeUpInterruptHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetWakeUpInterruptHandler@handler handler `*.37(v  1 p 2 8 ]
+"634
+} 0
+"579
+[v _ECAN_SetTXWarningHandler ECAN_SetTXWarningHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetTXWarningHandler@handler handler `*.37(v  1 p 2 8 ]
+"582
+} 0
+"569
+[v _ECAN_SetTXPassiveHandler ECAN_SetTXPassiveHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetTXPassiveHandler@handler handler `*.37(v  1 p 2 8 ]
+"572
+} 0
+"543
+[v _ECAN_SetTXB2InterruptHandler ECAN_SetTXB2InterruptHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetTXB2InterruptHandler@handler handler `*.37(v  1 p 2 8 ]
+"546
+} 0
+"532
+[v _ECAN_SetTXB1InterruptHandler ECAN_SetTXB1InterruptHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetTXB1InterruptHandler@handler handler `*.37(v  1 p 2 8 ]
+"535
+} 0
+"521
+[v _ECAN_SetTXB0InterruptHandler ECAN_SetTXB0InterruptHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetTXB0InterruptHandler@handler handler `*.37(v  1 p 2 8 ]
+"524
+} 0
+"584
+[v _ECAN_SetRXWarningHandler ECAN_SetRXWarningHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetRXWarningHandler@handler handler `*.37(v  1 p 2 8 ]
+"587
+} 0
+"574
+[v _ECAN_SetRXPassiveHandler ECAN_SetRXPassiveHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetRXPassiveHandler@handler handler `*.37(v  1 p 2 8 ]
+"577
+} 0
+"559
+[v _ECAN_SetRXB1OverflowHandler ECAN_SetRXB1OverflowHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetRXB1OverflowHandler@handler handler `*.37(v  1 p 2 8 ]
+"562
+} 0
+"510
+[v _ECAN_SetRXB1InterruptHandler ECAN_SetRXB1InterruptHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetRXB1InterruptHandler@handler handler `*.37(v  1 p 2 8 ]
+"513
+} 0
+"554
+[v _ECAN_SetRXB0OverflowHandler ECAN_SetRXB0OverflowHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetRXB0OverflowHandler@handler handler `*.37(v  1 p 2 8 ]
+"557
+} 0
+"499
+[v _ECAN_SetRXB0InterruptHandler ECAN_SetRXB0InterruptHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetRXB0InterruptHandler@handler handler `*.37(v  1 p 2 8 ]
+"502
+} 0
+"642
+[v _ECAN_SetMessageErrorInterruptHandler ECAN_SetMessageErrorInterruptHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetMessageErrorInterruptHandler@handler handler `*.37(v  1 p 2 8 ]
+"645
+} 0
+"564
+[v _ECAN_SetBusOffHandler ECAN_SetBusOffHandler `(v  1 e 1 0 ]
+{
+[v ECAN_SetBusOffHandler@handler handler `*.37(v  1 p 2 8 ]
+"567
+} 0
+"109 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManagerLow INTERRUPT_InterruptManagerLow `IIL(v  1 e 1 0 ]
+{
+"148
+} 0
+"636 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/ecan.c
+[v _ECAN_WAKI_ISR ECAN_WAKI_ISR `(v  1 e 1 0 ]
+{
+"640
+} 0
+"88
+[v _WakeUpDefaultInterruptHandler WakeUpDefaultInterruptHandler `(v  1 s 1 WakeUpDefaultInterruptHandler ]
+{
+} 0
+"548
+[v _ECAN_TXB2I_ISR ECAN_TXB2I_ISR `(v  1 e 1 0 ]
+{
+"552
+} 0
+"80
+[v _TXB2DefaultInterruptHandler TXB2DefaultInterruptHandler `(v  1 s 1 TXB2DefaultInterruptHandler ]
+{
+} 0
+"537
+[v _ECAN_TXB1I_ISR ECAN_TXB1I_ISR `(v  1 e 1 0 ]
+{
+"541
+} 0
+"79
+[v _TXB1DefaultInterruptHandler TXB1DefaultInterruptHandler `(v  1 s 1 TXB1DefaultInterruptHandler ]
+{
+} 0
+"526
+[v _ECAN_TXB0I_ISR ECAN_TXB0I_ISR `(v  1 e 1 0 ]
+{
+"530
+} 0
+"78
+[v _TXB0DefaultInterruptHandler TXB0DefaultInterruptHandler `(v  1 s 1 TXB0DefaultInterruptHandler ]
+{
+} 0
+"515
+[v _ECAN_RXB1I_ISR ECAN_RXB1I_ISR `(v  1 e 1 0 ]
+{
+"519
+} 0
+"77
+[v _RXB1DefaultInterruptHandler RXB1DefaultInterruptHandler `(v  1 s 1 RXB1DefaultInterruptHandler ]
+{
+} 0
+"504
+[v _ECAN_RXB0I_ISR ECAN_RXB0I_ISR `(v  1 e 1 0 ]
+{
+"508
+} 0
+"76
+[v _RXB0DefaultInterruptHandler RXB0DefaultInterruptHandler `(v  1 s 1 RXB0DefaultInterruptHandler ]
+{
+} 0
+"647
+[v _ECAN_IRXI_ISR ECAN_IRXI_ISR `(v  1 e 1 0 ]
+{
+"651
+} 0
+"89
+[v _MessageErrorDefaultInterruptHandler MessageErrorDefaultInterruptHandler `(v  1 s 1 MessageErrorDefaultInterruptHandler ]
+{
+} 0
+"589
+[v _ECAN_ERRI_ISR ECAN_ERRI_ISR `(v  1 e 1 0 ]
+{
+"629
+} 0
+"86
+[v _TXWarningDefaultHandler TXWarningDefaultHandler `(v  1 s 1 TXWarningDefaultHandler ]
+{
+} 0
+"84
+[v _TXPassiveDefaultHandler TXPassiveDefaultHandler `(v  1 s 1 TXPassiveDefaultHandler ]
+{
+} 0
+"87
+[v _RXWarningDefaultHandler RXWarningDefaultHandler `(v  1 s 1 RXWarningDefaultHandler ]
+{
+} 0
+"85
+[v _RXPassiveDefaultHandler RXPassiveDefaultHandler `(v  1 s 1 RXPassiveDefaultHandler ]
+{
+} 0
+"82
+[v _RXB1OverflowDefaultHandler RXB1OverflowDefaultHandler `(v  1 s 1 RXB1OverflowDefaultHandler ]
+{
+} 0
+"81
+[v _RXB0OverflowDefaultHandler RXB0OverflowDefaultHandler `(v  1 s 1 RXB0OverflowDefaultHandler ]
+{
+} 0
+"83
+[v _BusOffDefaultHandler BusOffDefaultHandler `(v  1 s 1 BusOffDefaultHandler ]
+{
+} 0
+"92 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManagerHigh INTERRUPT_InterruptManagerHigh `IIH(v  1 e 1 0 ]
+{
+"107
+} 0
+"197 C:\HERMINIO\Programas em C\TesteCan\TesteCan2.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+{
+"214
+} 0
+"216
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"238
+} 0
+"252
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"258
+} 0
+"250
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"260
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"262
+} 0
+"240
+[v _EUSART1_RxDataHandler EUSART1_RxDataHandler `(v  1 e 1 0 ]
+{
+"248
+} 0
